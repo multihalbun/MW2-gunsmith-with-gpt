@@ -1,1 +1,1 @@
-# tarkov-modding-with-gpt
+# MW2-gunsmith-with-gpt
