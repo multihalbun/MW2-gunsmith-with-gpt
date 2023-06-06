@@ -2,7 +2,7 @@ body {
     background: #191919;
 }
 .header {
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     color: #7bc42c;
 }
 .main {
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +19,49 @@ body {
 .h1 {
     width: 400px;
     border-bottom: 2px solid #7bc42c;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding-bottom: 10px;
 }
 .weapon-selector {
     display: flex;
-    flex-direction: row;
-    color: white;
+    justify-content: space-between;
+    color: #ffffff;
     font-size: 32px;
+}
+.selector {
+    border: 1px solid #777;
+    border-left: none;
+    border-right: none;
+    height: 34px;
+    width: 285px;
+    background: #444;
+    color: #ffffff;
+}
+.arrow {
+    width: 200px;
+    line-height: 34px;
+    text-align: center;
+}
+.request-comment {
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+}
+.input-text {
+    width: 600px;
+    height: auto;
+    border: 1px solid #777;
+    border-radius: 10px;
+    background: #444;
+    color: #ffffff;
+    resize: none;
+    font-size: 24px;
+}
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: #444;
+    color: #ffffff;
 }
