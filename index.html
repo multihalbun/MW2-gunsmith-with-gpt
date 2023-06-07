@@ -8,34 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body >
+<body>
     <header class="header">
         <div class="logo">MW2 GUNSMITH WITH GPT</div>
     </header>
     <main class="main">
-        <h1 class="h1">무기 선택</h1>
-        <div class="weapon-selector">
-            <select name="weapon-type" id="weapon-type-select" class="selector" onchange="weaponTypeChange(this)">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-            </select>
-            <div class="arrow">>>></div>
-            <select name="weapon" id="weapon-select" class="selector">
-                <option value="1">1-1</option>
-                <option value="2">1-2</option>
-                <option value="3">1-3</option>
-                <option value="4">1-4</option>
-            </select>
+        <div class="input-box">
+            <span class="span">무기 선택</span>
+            <div class="weapon-selector">
+                <select name="weapon-type" id="weapon-type-select" class="selector">
+                </select>
+                <div class="arrow">>>></div>
+                <select name="weapon" id="weapon-select" class="selector">
+                </select>
+            </div>
+            <span class="span">요청 사항</span>
+            <textarea name="input-text" id="input-text" class="input-text" placeholder="(예시) 레이저와 조준경을 포함해줘."></textarea>
+            <button type="submit" id="input-button" class="button">전송</button>
         </div>
-        <h1 class="h1">요청 사항</h1>
-        <div class="request-comment">
-            <textarea name="input-text" id="input-text" class="input-text"></textarea>
-            <button type="button" class="button">전송</button>
+        <div id="answer-box" class="answer-box">
+            <ul id="chat"></ul>
         </div>
-
-        <script src="main.js"></script>
+        <script type="module" src="main.js"></script>
     </main>
 </body>
 </html>

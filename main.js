@@ -1,37 +1,46 @@
+import * as gpt from "./gpt.js";
+import { weaponTypeArr, weaponArr} from "./weaponList.js";
+
+const weaponTypeSelect = document.getElementById("weapon-type-select");
+const weaponSelect = document.getElementById("weapon-select");
+const inputTextarea = document.getElementById("input-text");
+const inputButton = document.getElementById("input-button");
+
+// weaponTypeSelect 초기값 설정
+for (let i = 0; i < weaponTypeArr.length; i++) {
+    let opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = weaponTypeArr[i];
+    weaponTypeSelect.appendChild(opt);
+}
+
+// weaponSelect 초기값 설정
+for (let i = 0; i < weaponArr[0].length; i++) {
+    let opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = weaponArr[0][i];
+    weaponSelect.appendChild(opt);
+}
+
 /**
- * weapon-type-select에서 값을 선택하면
- * weapon type에 맞게 weapon-select 값을 변경한다.
- * @param {select} elem 
+ * weapon-type-select에서 option을 선택하면
+ * weapon type에 맞게 weapon-select의 option들을 변경한다.
  */
-function weaponTypeChange(elem) {
-	let w1 = ["1-1", "1-2", "1-3", "1-4"];
-	let w2 = ["2-1", "2-2", "2-3", "2-4"];
-	let w3 = ["3-1", "3-2", "3-3", "3-4"];
-	let w4 = ["4-1", "4-2", "4-3", "4-4"];
-	let target = document.getElementById("weapon-select");
-
-    let weapons;
-    switch (elem.value) {
-        case "1":
-            weapons = w1;
-            break;
-        case "2":
-            weapons = w2;
-            break;
-        case "3":
-            weapons = w3;
-            break;
-        case "4":
-            weapons = w4;
-            break;
-    }
-
-	target.options.length = 0;
-
+weaponTypeSelect.onchange = function weaponTypeChange() {
+    let weapons = weaponArr[weaponTypeSelect.value];
+	weaponSelect.options.length = 0;
 	for (let i = 0; i < weapons.length; i++) {
 		let opt = document.createElement("option");
-		opt.value = i+1;
-		opt.innerHTML = weapons[i];
-		target.appendChild(opt);
+		opt.value = i;
+		opt.textContent = weapons[i];
+		weaponSelect.appendChild(opt);
 	}
+}
+
+/**
+ * textarea의 내용이 길어지면 자동으로 높이를 늘려준다.
+ */
+inputTextarea.oninput = function textareaAutoSize() {
+    inputTextarea.style.height = "auto";
+    inputTextarea.style.height = inputTextarea.scrollHeight + "px";
 }
