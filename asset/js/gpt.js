@@ -1,10 +1,10 @@
-import { weaponTypeArr, weaponArr} from "./weaponList.js";
+import { weaponArr } from "./weaponList.js";
+import * as gptData from "./gptData.js";
 
 const weaponTypeSelect = document.getElementById("weapon-type-select");
 const weaponSelect = document.getElementById("weapon-select");
 const inputTextarea = document.getElementById("input-text");
 const inputButton = document.getElementById("input-button");
-const chat = document.getElementById("chat");
 const answerBox = document.getElementById("answer-box");
 
 // openAI API
@@ -14,18 +14,19 @@ let url = `https://estsoft-openai-api.jejucodingcamp.workers.dev/`;
 let question;
 
 // 질문과 답변 저장
-let data = [
-{
-    role: "system",
-    content: "assistant는 Call of Duty: Modern Warfare II 라는 게임의 gunsmith를 도와주는 전문가이다.",
-}
-];
+let data = [];
 
 // 화면에 뿌려줄 데이터, 질문들
 let questionData = [];
 
+// 선택한 총기별로 gpt에게 사전 학습 데이터 설정
+const setData = () => {
+    data = gptData.data;
+}
+
 // 사용자의 질문을 객체를 만들어서 push
 const sendQuestion = (question) => {
+    setData();
     data.push({
     role: "user",
     content: weaponArr[weaponTypeSelect.value][weaponSelect.value] + "의 부착물 5개를 추천해줘. " + question,
@@ -39,7 +40,6 @@ const sendQuestion = (question) => {
 
 // 화면에 질문 그려주는 함수
 const printQuestion = () => {
-
         let s = document.createElement("div");
         s.classList.add("question");
         questionData.map((el) => {

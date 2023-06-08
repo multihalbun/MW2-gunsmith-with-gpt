@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MW2 GPT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="icon" href="./asset/img/favicon.ico"/>
+    <script type="module" src="./asset/js/main.js"></script>
+    <script type="module" src="./asset/js/gpt.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="logo">MW2 GUNSMITH WITH GPT</div>
+        <div class="logo-box">
+            <a href="https://www.callofduty.com/modernwarfare2" target="_blank"><img src="./asset/img/mw2-logo.png" alt="mw2-logo" class="mw2-logo"></a>
+            <div class="logo">MW2 GUNSMITH WITH GPT</div>
+            <a href="https://openai.com" target="_blank"><img src="./asset/img/gpt-logo.png" alt="gpt-logo" class="gpt-logo"></a>
+        </div>
     </header>
     <main class="main">
         <div class="input-box">
@@ -29,7 +36,9 @@
         <div id="answer-box" class="answer-box">
             <ul id="chat"></ul>
         </div>
-        <script type="module" src="main.js"></script>
     </main>
+    <footer class="footer">
+        <a href="https://github.com/multihalbun/MW2-gunsmith-with-gpt" target="_blank" class="github-logo"><img src="./asset/img/github-logo.png" alt="github-logo"></a>
+    </footer>
 </body>
 </html>

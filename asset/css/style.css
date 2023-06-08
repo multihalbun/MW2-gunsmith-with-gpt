@@ -7,12 +7,26 @@ body {
     display: flex;
     justify-content: center;
 }
+.logo-box {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     font-size: 48px;
     font-weight: bold;
     color: #ffffff;
 }
+.mw2-logo {
+    height: 60px;
+    margin: 10px;
+}
+.gpt-logo {
+    height: 80px;
+}
 .main {
+    min-height: calc(100vh - 86px - 86px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,4 +107,15 @@ body {
 }
 .answer-box > * {
     color: #ffffff;
+}
+.footer {
+    border-top: 2px solid #7bc42c;
+    display: flex;
+    justify-content: center;
+}
+.github-logo {
+    margin: 10px;
+}
+.github-logo > img {
+    height: 60px;
 }

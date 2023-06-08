@@ -1,10 +1,8 @@
-import * as gpt from "./gpt.js";
-import { weaponTypeArr, weaponArr} from "./weaponList.js";
+import { weaponTypeArr, weaponArr } from "./weaponList.js";
 
 const weaponTypeSelect = document.getElementById("weapon-type-select");
 const weaponSelect = document.getElementById("weapon-select");
 const inputTextarea = document.getElementById("input-text");
-const inputButton = document.getElementById("input-button");
 
 // weaponTypeSelect 초기값 설정
 for (let i = 0; i < weaponTypeArr.length; i++) {
