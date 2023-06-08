@@ -13,15 +13,13 @@
 
 <body>
     <header class="header">
-        <div class="logo-box">
-            <a href="https://www.callofduty.com/modernwarfare2" target="_blank"><img src="./asset/img/mw2-logo.png" alt="mw2-logo" class="mw2-logo"></a>
-            <div class="logo">MW2 GUNSMITH WITH GPT</div>
-            <a href="https://openai.com" target="_blank"><img src="./asset/img/gpt-logo.png" alt="gpt-logo" class="gpt-logo"></a>
-        </div>
+        <a href="https://www.callofduty.com/modernwarfare2" target="_blank"><img src="./asset/img/mw2-logo.png" alt="mw2-logo" class="mw2-logo"></a>
+        <h1 class="logo">MW2 GUNSMITH WITH GPT</h1>
+        <a href="https://openai.com" target="_blank"><img src="./asset/img/gpt-logo.png" alt="gpt-logo" class="gpt-logo"></a>
     </header>
     <main class="main">
         <!-- 사용자 질문 입력 start -->
-        <div class="input-box">
+        <form action="" class="input-box">
             <span class="span">무기 선택</span>
             <div class="weapon-selector">
                 <select name="weapon-type" id="weapon-type-select" class="selector">
@@ -33,7 +31,7 @@
             <span class="span">요청 사항</span>
             <textarea name="input-text" id="input-text" class="input-text" placeholder="(예시) 레이저와 조준경을 포함해줘."></textarea>
             <button type="submit" id="input-button" class="button">전송</button>
-        </div>
+        </form>
         <!-- 사용자 질문 입력 end -->
         <!-- gpt 답변 start -->
         <div id="answer-box" class="answer-box">

@@ -8,7 +8,7 @@ const inputButton = document.getElementById("input-button");
 const answerBox = document.getElementById("answer-box");
 
 // openAI API
-let url = `https://estsoft-openai-api.jejucodingcamp.workers.dev/`;
+const url = `https://estsoft-openai-api.jejucodingcamp.workers.dev/`;
 
 // 사용자의 질문
 let question;
