@@ -1,3 +1,7 @@
+/**
+ * 무기tpye과 무기 목록의 배열 데이터.
+ */
+
 export const weaponTypeArr = ["Assault Rifle", "Battle Rifle", "Submachine Gun", "Shotgun", "Light Machine Gun", "Marksman Rifle", "Sniper Rifle", "Handgun"];
 
 export const weaponArr = [
