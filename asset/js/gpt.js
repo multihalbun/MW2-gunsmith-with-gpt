@@ -93,7 +93,7 @@ const waitAnswer = () => {
     answerBox.replaceChildren();
     let s = document.createElement("div");
     s.classList.add("loading");
-    s.innerText = "GPT의 답변을 기다리는중..."
+    s.innerHTML = "<div>GPT의 답변을 기다리는중...</div><img src=\"./asset/img/loading.gif\" alt=\"loading-gif\">";
     answerBox.appendChild(s);
     answerBox.style.display = "flex";
 }
