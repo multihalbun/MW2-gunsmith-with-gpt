@@ -1,3 +1,8 @@
+@font-face {
+    /* 폰트 다운로드: https://www.fontspace.com/modern-warfare-font-f41181 */
+    font-family: 'ModernWarfare';
+    src: url('../font/ModernWarfare-8MM6z.ttf') format('truetype');
+}
 body {
     margin: 0px;
     background: #272727;
@@ -6,35 +11,78 @@ body {
 .header {
     border-bottom: 2px solid #7bc42c;
     width: 100%;
+}
+.logo-box {
+    width: 1250px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo {
-    font-size: 36px;
     margin: 0px;
-    font-weight: bold;
+    font-family: 'ModernWarfare';
+    font-size: 36px;
+    font-weight: 100;
     color: #ffffff;
 }
-.mw2-logo {
-    height: 60px;
-    width: 120px;
-    margin: 10px;
+.logo > :nth-child(1) {
+    color: #7bc42c;
+}
+.logo > :nth-child(2) {
+    color: #0ea47f;
+}
+.mw2-logo > img {
+    width: 140px;
+    height: 40px;
+    padding: 20px;
+    vertical-align: top;
 }
 .gpt-logo {
-    height: 80px;
-    margin-left: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.gpt-logo > img {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    vertical-align: top;
 }
 .main {
-    min-height: calc(100vh - 86px - 86px);
-    min-width: 900px;
+    min-height: calc(100vh - 82px - 82px);
+    min-width: 1250px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.intro {
+    width: 900px;
+    margin: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1f1f20;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.intro > * {
+    padding: 3px;
+}
+.intro > :nth-child(1) > :nth-child(1) {
+    color: #7bc42c;
+}
+.intro > :nth-child(1) > :nth-child(2) {
+    color: #0ea47f;
+}
+.intro > :nth-child(2) > :nth-child(1) {
+    color: #0ea47f;
+}
 .input-box {
     width: 900px;
-    margin: 50px;
+    margin: 25px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -49,7 +97,7 @@ body {
     color: #ffffff;
     text-align: center;
     margin: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-bottom: 10px;
     font-size: 32px;
     font-weight: bold;
@@ -59,16 +107,18 @@ body {
     justify-content: space-between;
     color: #ffffff;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .selector {
+    height: 34px;
+    width: 285px;
+    padding: 5px;
     border: 1px solid #777;
     border-left: none;
     border-right: none;
-    height: 34px;
-    width: 285px;
     background: #444;
     color: #ffffff;
+    font-size: 18px;
 }
 .arrow {
     width: 200px;
@@ -82,23 +132,26 @@ body {
 }
 .input-text {
     width: 770px;
+    padding: 5px;
     border: 1px solid #777;
     background: #444;
     color: #ffffff;
     resize: none;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .button {
     width: 100px;
     height: 50px;
+    border-radius: 8px;
     background: #444;
     color: #ffffff;
-    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .answer-box {
     width: 900px;
-    margin: 50px;
+    margin: 25px;
     padding: 10px;
     display: none;
     flex-direction: column;
@@ -122,13 +175,15 @@ body {
     margin: 5px;
 }
 .footer {
+    min-width: 1250px;
     border-top: 2px solid #7bc42c;
     display: flex;
     justify-content: center;
 }
 .github-logo {
-    margin: 10px;
+    margin: 15px;
 }
 .github-logo > img {
-    height: 60px;
+    height: 50px;
+    vertical-align: top;
 }

@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MW2 GPT</title>
     <link rel="stylesheet" href="./asset/css/style.css">
-    <link rel="icon" href="./asset/img/favicon.ico"/>
+    <link rel="icon" href="./asset/img/mw2-favicon.ico"/>
     <script type="module" src="./asset/js/main.js"></script>
     <script type="module" src="./asset/js/gpt.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <a href="https://www.callofduty.com/modernwarfare2" target="_blank"><img src="./asset/img/mw2-logo.png" alt="mw2-logo" class="mw2-logo"></a>
-        <h1 class="logo">MW2 GUNSMITH WITH GPT</h1>
-        <a href="https://openai.com" target="_blank"><img src="./asset/img/gpt-logo.png" alt="gpt-logo" class="gpt-logo"></a>
+        <div class="logo-box">
+            <a href="https://www.callofduty.com/modernwarfare2" target="_blank" class="mw2-logo"><img src="./asset/img/mw2-logo.png" alt="mw2-logo"></a>
+            <h1 class="logo"><span>MWII</span> GUNSMITH WITH <span>GPT</span></h1>
+            <a href="https://openai.com" target="_blank" class="gpt-logo"><img src="./asset/img/gpt-logo.png" alt="gpt-logo"></a>
+        </div>
     </header>
     <main class="main">
+        <div class="intro">
+            <span><span>Modern Warfare II</span> 무기의 어떤 부착물을 사용할지 고민하지 말고 <span>GPT</span>에게 물어보세요!</span>
+            <span>무기를 선택하고, 요청 사항을 입력한 뒤, 전송 버튼을 클릭하면 <span>GPT</span>가 추천을 해줍니다.</span>
+        </div>
         <!-- 사용자 질문 입력 start -->
         <form action="" class="input-box">
             <span class="span">무기 선택</span>
@@ -29,7 +35,7 @@
                 </select>
             </div>
             <span class="span">요청 사항</span>
-            <textarea name="input-text" id="input-text" class="input-text" placeholder="(예시) 레이저와 조준경을 포함해줘."></textarea>
+            <textarea name="input-text" id="input-text" class="input-text" placeholder="(예시) 레이저와 조준경을 포함해줘. 근거리 교전에서 사용할거야."></textarea>
             <button type="submit" id="input-button" class="button">전송</button>
         </form>
         <!-- 사용자 질문 입력 end -->
