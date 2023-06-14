@@ -469,10 +469,10 @@ export const attachmentData = [
             "Barrel": [
                 "Bruen Turaco 686mm",
                 "FTac FB20",
-                "18” Bruen Guerilla",
-                "24.4” Bruen S-620",
+                "18\" Bruen Guerilla",
+                "24.4\" Bruen S-620",
                 "508MM Rear Guard",
-                "16.5” Bruen S901",
+                "16.5\" Bruen S901",
             ],
             "Laser": [
                 "1MW Quick Fire Laser",
@@ -606,8 +606,8 @@ export const attachmentData = [
                 "Lach-12 Barrel",
                 "Lachmann Nova",
                 "LM Aurora 90 Barrel",
-                "10.6” Lachstrike Barrel",
-                "15.9” Lachmann RAPP Barrel",
+                "10.6\" Lachstrike Barrel",
+                "15.9\" Lachmann RAPP Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -1573,12 +1573,12 @@ export const attachmentData = [
                 "TA Hul-Breach KL",
             ],
             "Barrel": [
-                "Romeo FT 16” Barrel",       
+                "Romeo FT 16\" Barrel",       
                 "Lachmann Nova",
                 "LM Aurora 90 Barrel",       
-                "10.6” Lachstrike Barrel",   
-                "Meer-56 11” Factory",       
-                "15.9” Lachmann RAPP Barrel",
+                "10.6\" Lachstrike Barrel",   
+                "Meer-56 11\" Factory",       
+                "15.9\" Lachmann RAPP Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -1714,10 +1714,10 @@ export const attachmentData = [
                 "TA Hul-Breach KL",
             ],
             "Barrel": [
-                "22” Factory Fourteen Barrel",
-                "22” Boremaster Barrel",
-                "18” T300 Barrel",
-                "16” Chrome-Lined RFX40 Barrel",
+                "22\" Factory Fourteen Barrel",
+                "22\" Boremaster Barrel",
+                "18\" T300 Barrel",
+                "16\" Chrome-Lined RFX40 Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -1848,7 +1848,7 @@ export const attachmentData = [
             ],
             "Barrel": [
                 "Lance-50 12\" Barrel",
-                "18” Precision-6 Barrel",
+                "18\" Precision-6 Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -1986,7 +1986,7 @@ export const attachmentData = [
                 "Bull Rider 16.5\"",
                 "Tempus Trench Pro",
                 "419MM EXF Barrel",
-                "7.5” Tempus Firebrand",
+                "7.5\" Tempus Firebrand",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -2251,11 +2251,11 @@ export const attachmentData = [
             ],
             "Barrel": [
                 "9.5\" Duke-30",
-                "FTAC Series IX 14.5”",
-                "FTac Defense 14.5”",
-                "17” Corvus Prorange",
-                "16” Cloak 90",
-                "18.75” Cloak 90",
+                "FTAC Series IX 14.5\"",
+                "FTac Defense 14.5\"",
+                "17\" Corvus Prorange",
+                "16\" Cloak 90",
+                "18.75\" Cloak 90",
             ],
             "Laser": [
                 "STOVL Tac Laser",
@@ -2377,11 +2377,11 @@ export const attachmentData = [
                 "Shikra Silencer",
             ],
             "Barrel": [
-                "FTac 8.5” Recon",
+                "FTac 8.5\" Recon",
                 "Forge Tac Ninja",
                 "Fennec Covert Force",
-                "ZLR 16.5” Ignition Barrel",
-                "5.5” Fennec Minitac",
+                "ZLR 16.5\" Ignition Barrel",
+                "5.5\" Fennec Minitac",
             ],
             "Laser": [
                 "1mw Quick Fire Laser", 
@@ -2495,8 +2495,8 @@ export const attachmentData = [
             ],
             "Barrel": [
                 "508MM Rear Guard",
-                "16.5” STB Factory",
-                "16.5” Bruen S901",
+                "16.5\" STB Factory",
+                "16.5\" Bruen S901",
             ],
             "Laser": [
                 "1MW Quick Fire Laser",
@@ -2826,7 +2826,7 @@ export const attachmentData = [
                 "TA Hul-Breach",
             ],
             "Barrel": [
-                "FSS Cannonade 16”",
+                "FSS Cannonade 16\"",
                 "FSS-X7 Barrel",
             ],
             "Laser": [
@@ -3254,10 +3254,10 @@ export const attachmentData = [
                 "Bryson Choke",
             ],
             "Barrel": [
-                "18.5” Emperor Barrel",
-                "14” Polarize Barrel",
-                "14” Shorty Barrel",
-                "18.5” Battlemaster",
+                "18.5\" Emperor Barrel",
+                "14\" Polarize Barrel",
+                "14\" Shorty Barrel",
+                "18.5\" Battlemaster",
                 "419mm Schlager Salvo",
             ],
             "Laser": [
@@ -3376,7 +3376,7 @@ export const attachmentData = [
                 "Matuzek 812 Barrel",
                 "711mm Matuzek D50",
                 "597mm Matuzek Inferno",
-                "11” Bryson Special",
+                "11\" Bryson Special",
             ],
             "Laser": [
                 "1MW Quick Fire Laser",
@@ -3489,11 +3489,11 @@ export const attachmentData = [
                 "Bryson Choke",
             ],
             "Barrel": [
-                "21.5” Recourse",
-                "21.5” Bryson TacFire",
-                "18” Demo Firewall",
-                "16” Bryson Shockwave",
-                "21.5” Bryson Shredder",
+                "21.5\" Recourse",
+                "21.5\" Bryson TacFire",
+                "18\" Demo Firewall",
+                "16\" Bryson Shockwave",
+                "21.5\" Bryson Shredder",
             ],
             "Laser": [
                 "1MW Quick Fire Laser",
@@ -3986,9 +3986,9 @@ export const attachmentData = [
             ],
             "Barrel": [
                 "Bruen Turaco 686mm",
-                "FTac Hornet 20” Barrel",
-                "18” Bruen Guerilla",
-                "24.4” Bruen S-620",
+                "FTac Hornet 20\" Barrel",
+                "18\" Bruen Guerilla",
+                "24.4\" Bruen S-620",
             ],
             "Laser": [
                 "1MW Quick Fire Laser",
@@ -4119,7 +4119,7 @@ export const attachmentData = [
                 "C400 Door Knocker",
             ],
             "Barrel": [
-                "FTac Coldforge 16” Barrel",
+                "FTac Coldforge 16\" Barrel",
                 "FTac SB",
             ],
             "Laser": [
@@ -4365,10 +4365,10 @@ export const attachmentData = [
                 "TA Hul-Breach KL",
             ],
             "Barrel": [
-                "Romeo FT 16” Barrel",
+                "Romeo FT 16\" Barrel",
                 "Meer-76 449mm Factory",
                 "Lachmann Nova",
-                "10.6” Lachstrike Barrel",
+                "10.6\" Lachstrike Barrel",
             ],
             "Laser": [
                 "Schlager PEQ Box IV",
@@ -4948,9 +4948,9 @@ export const attachmentData = [
                 "Demon Helix T7",
             ],
             "Barrel": [
-                "22” OMX-456",
-                "17.5” Orca Barrel",
-                "19” Silentfire Barrel",
+                "22\" OMX-456",
+                "17.5\" Orca Barrel",
+                "19\" Silentfire Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -5155,7 +5155,7 @@ export const attachmentData = [
         {
             "Muzzle": [
                 "Nilsound 90",
-                "FTac Dreadnought",
+                "FTac Dreadnought\"",
                 "FTac Reaper",
                 "Bruen Agent 90",
                 "Talon Sixteen",
@@ -5171,10 +5171,10 @@ export const attachmentData = [
                 "Demon Helix T7",
             ],
             "Barrel": [
-                "22” Cavalry Barrel",
-                "23.5” Fluted R-67",
-                "18.5” Bryson LR Factory",
-                "16” ZLR Executor 80 Barrel",
+                "22\" Cavalry Barrel",
+                "23.5\" Fluted R-67",
+                "18.5\" Bryson LR Factory",
+                "16\" ZLR Executor 80 Barrel",
             ],
             "Laser": [
                 "SZ 1MW PEQ",
@@ -5571,48 +5571,479 @@ export const attachmentData = [
     // Handgun
     [
         // P890
-        {}, 
+        {
+            "Muzzle": [
+                "CN30 Suppressor",
+                "Forge DX90-F (long version)", 
+                "Forge DX90-F (short version)",
+                "DZS Open Comp",
+                "SLAB-10 Comp",
+                "XRK Ventor-900",
+                "Comp 905F Pistol",
+                "Bruen Tri-Port",
+                "Corvus Series-D",
+                "XRK QZ-105",
+                "SA GF90 Flash Hider",
+                "Hole Punch Breacher",
+                "FT Steel Fire",
+            ],
+            "Barrel": [
+                "Matuzek Cottonmouth",
+                "XRK Tacops Barrel",
+                "Matuzek Venom",
+                "XTEN Harbinger",
+            ],
+            "Laser": [
+                "SERIES 710 Pistol Laser",
+                "FJX DIOD-70",
+                "XTEN Sidearm-L400",
+                "1MW Pistol Laser",
+                "DZM-1000 L",
+                "FTAC Vortex 200",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "SZ Sigma-IV Optic",
+                "Cronen Mini Pro",
+                "SZ Minitac-40",
+            ],
+            "Trigger Action": [
+                "Bruen M680",
+                "XRK Heavy V3",
+                "Bruen Express",
+                "P890 Double Action",
+            ],
+            "Ammunition": [
+                ".45 Auto Frangible",
+                ".45 Auto Armor Piercing",
+                ".45 Auto Hollowpoint",
+                ".45 Auto Overpressured +P",
+            ],
+            "Magazine": [
+                "10 Round Mag",
+                "12 Roung Mag",
+            ],
+            "Rear Grip": [
+                "Bruen Anchor Grip",
+                "FJX DVF60 Grip",
+                "Bruen RSH-80 Grip",
+                "BP-Grain Grip",
+                "Akimbo P890",
+            ],
+        }, 
         // .50 GS
-        {}, 
+        {
+            "Muzzle": [
+                "EXF Fifty GS",
+                "Matuzek Crown",
+                "FTAC Fifty Comp",
+                "Potato Masher",
+                "SA Peak-77",
+                "GW Flash Fifty",
+            ],
+            "Barrel": [
+                "SA Brake Barrel",
+                "SA Comp Barrel",
+                "SA Longshot-50",
+                "SA Tyrant Fifty",
+            ],
+            "Laser": [
+                "Series 710 Pistol Laser",
+                "FJX DIOD-70",
+                "XTEN Sidearm-L400",
+                "1MW Pistol Laser",
+                "DZM-1000 L",
+                "FTAC VORTEX 200",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "SZ Sigma-IV Optic",
+                "Corio RE-X Pro",
+                "SZ Lonewolf Optic",
+                "Cronen Mini Pro",
+                "SZ Minitac-40",
+                "XRK On-Point Optic",
+                "Aim OP-V4",
+                "DF105 Delta Sight",
+                "Monocle CT90",
+                "Corvus SOL-76",
+                "SZ Recharge-DX",
+                "SZ SRO-7",
+                "SZ Recharge-DX",
+                "SZ SRO-7",
+                "Corio Enforcer Optic",
+                "Kazan-Holo",
+                "SZ Battle Optic",
+                "Corvus Downrange-00",
+                "SZ Holotherm",
+                "XTEN Angel-40",
+            ],
+            "Trigger Action": [
+                "SA Competition Trigger",
+                "SA Fifty Trigger",
+                "SA Hare Trigger",
+            ],
+            "Ammunition": [
+                ".50 Pistol Frangible",
+                ".50 Pistol Hollowpoint",
+                ".50 Pistol Armor Piercing",
+                ".50 Pistol Overpressured +P",
+            ],
+            "Magazine": [
+                "10 Round Mag",
+                "13 Round Mag",
+            ],
+            "Rear Grip": [
+                "EXF Shoreline Grip",
+                "EXF Resistance Grip",
+                "GS.50 Wood Grain",
+                "Akimbo .50 GS",
+            ],
+        }, 
         // X12
-        {}, 
+        {
+            "Muzzle": [
+                "CN30 Suppressor",
+                "Forge DX90-F (Long)",
+                "FT Steel Fire",
+                "Forge DX90-F (Short)",
+                "DZS Open Comp",
+                "SLAB-10 Comp",
+                "XRK-Ventor 900",
+                "Comp 905F Pistol",
+                "Bruen Tri-Port",
+                "Corvus Series-D",
+                "XRK QZ-105",
+                "SA GF90 Flash Hider",
+                "Hole Punch Breacher",
+            ],
+            "Barrel": [
+                "XRK Sidewinder-6 Slide",
+                "XRK Feather Slide",
+            ],
+            "Laser": [
+                "Series 710 Pistol Laser",
+                "FJX DIOD-70",
+                "XTEN Sidearm-L400",
+                "1mw Pistol Laser",
+                "DZM-1000 L",
+                "FTAC Vortex 200",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "Cronen Mini Pro",
+                "SZ Sigma-IV Optic",
+            ],
+            "Stock": [
+                "XRK Pistol Stock",
+            ],
+            "Trigger Action": [
+                "XRK Lighting Fire Trigger",
+                "XRK TR9 Trigger",
+                "XRK Raptor Trigger",
+            ],
+            "Ammunition": [
+                "9mm Armor Piercing",
+                "9mm Frangible",
+                "9mm Overpressured +P",
+                "9mm Hollow Point",
+            ],
+            "Magazine": [
+                "24-Round Mag",
+                "33-Round Mag",
+                "50-Round Drum Mag",
+            ],
+            "Rear Grip": [
+                "Akimbo X12",
+                "XRK Field Grip",
+                "FTAC Paladin Grip",
+                "Cronen Lima-6",
+            ],
+        },  
         // Basilisk
-        {}, 
+        {
+            "Muzzle": [
+                "FSS KL30",
+                "FSS VMW Flash Hider",
+                "FTAC H50 Ported",
+                "RVS607 Compensator",
+            ],
+            "Barrel": [
+                "Bryson Snubby",
+                "FTAC Fang Ported",
+                "6.75\" Corvus Cougar 500",
+                "10.5\" FTAC Arrow",
+                "FTAC Carnivora 7\"",
+            ],
+            "Laser": [
+                "Basilisk Grip Laser",
+                "Corvus LZR-790",
+                "Revo-LSD 7MW",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "Cronen Mini Pro",
+                "SZ Sigma-IV Optic",
+                "SZ Minitac-40",
+                "XRK On-Point Optic",
+                "Aim OP-V4",
+                "DF105 Reflex Sight",
+                "Monocle CT90",
+                "Corvus SOL-76",
+                "SZ Recharge-DX",
+                "SZ SRO-7",
+                "Corio RE-X Pro",
+                "Corio Enforcer Optic",
+                "SZ Lonewolf Optic",
+                "Kazan-Holo",
+                "SZ Battle Optic",
+                "Corvus Downrange-00",
+                "SZ Holotherm",
+                "XTEN Angel-40",
+                "Corio RV500 Optioc",
+            ],
+            "Trigger Action": [
+                "Bryson HTA",
+                "Basilisk HT-7",
+                "Bryson Match Grade",
+            ],
+            "Ammunition": [
+                ".500 Armor Piercing",
+                ".500 Frangible",
+                ".500 Hollowpoint",
+                ".500 Overpressured +P",
+                ".500 Snakeshot",
+            ],
+            "Loader": [
+                "B-3ST Loader",
+                "S40 Rapid Loader",
+            ],
+            "Rear Grip": [
+                "Bryson WD-85 Grip",
+                "Bryson Duel Grip",
+                "SO RO-99 Grip",
+                "Akimbo Basilisk",
+            ],
+        }, 
         // X13 Auto
-        {}, 
+        {
+            "Muzzle": [
+                "CN30 Suppressor",
+                "Forge DX90-F (Long)",
+                "FT Steel Fire",
+                "Forge DX90-F (Short)",
+                "DZS Open Comp",
+                "SLAB-10 Comp",
+                "XRK-Ventor 900",
+                "Comp 905F Pistol",
+                "Bruen Tri-Port",
+                "Corvus Series-D",
+                "XRK QZ-105",
+                "SA GF90 Flash Hider",
+                "Hole Punch Breacher",
+            ],
+            "Barrel": [
+                "XRK LUC-9",
+                "XRK Sidewinder-6 Slide",
+                "Impact Point",
+            ],
+            "Laser": [
+                "Series 710 Pistol Laser",
+                "FJX DIOD-70",
+                "XTEN Sidearm-L400",
+                "1mw Pistol Laser",
+                "DZM-1000 L",
+                "FTAC Vortex 200",
+            ],
+            "Optic": [
+                "XRK On-Point Optic",
+                "DF105 Reflex Sight",
+                "Monocle CT90",
+                "Corvus SOL-76",
+                "SZ Recharge-DX",
+                "SZ SRO-7",
+                "Corio RE-X Pro",
+                "Corio Enforcer Optic",
+                "SZ Lonewolf Optic",
+                "Kazan-Holo",
+                "Corvus Downrange-00",
+                "SZ Holotherm",
+                "XTEN Angel-40",
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "Cronen Mini Pro",
+                "SZ Sigma IV Optic",
+                "SZ Minitac-40",
+            ],
+            "Ammunition": [
+                "9mm Frangible",
+                "9mm Hollow Point",
+                "9mm Armor Piercing",
+            ],
+            "Magazine": [
+                "24 Round Mag",
+                "33 Round Mag",
+                "50 Round Drum",
+            ],
+            "Rear Grip": [
+                "XRK Field Grip",
+                "FTAC OL-Z Grip",
+                "Cronen Lima-6",
+                "Akimbo X13",
+            ],
+        }, 
         // FTAC Siege
-        {}, 
+        {
+            "Muzzle": [
+                "XTEN RR-40",
+                "Forge DX90-F",
+                "SA Schalldamper 99",
+                "EXF Huntress-90",
+                "FSS Covert IV",
+                "FT Siege Control",
+                "Bruen Pendulum",
+                "AVR-T90 Comp",
+                "Lacerta Compensator",
+                "FTac Castle Comp",
+                "XRK Sandstorm",
+                "Bruen Cubic Comp",
+                "Spiral V3.5 Flash Hider",
+                "FOX-202 Flash Hider",
+                "XRK Knockout Breach",
+                "TA HUL-BREACH",
+            ],
+            "Barrel": [
+                "Ratchet BE",
+                "Supertac-VI",
+                "Mouse 40",
+                "RN5-XV 9mm",
+                "CMRN-50",
+                "NST-81",
+                "Ratchet BE Tac",
+            ],
+            "Laser": [
+                "SERIES 710 Pistol Laser",
+                "FJX DIOD-70",
+                "XTEN Sidearm-L400",
+                "1MW Pistol Laser",
+                "DZM-1000 L",
+                "FTAC Vortex 200",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "Cronen Mini Pro",
+                "SZ Sigma-IV Optic",
+                "SZ Minitac-40",
+                "XRK On-Point Optic",
+                "Aim OP-V4",
+                "DF105 Reflex Sight",
+                "Monocle CT90",
+                "Corvus SOL-76",
+                "SZ Recharge-DX",
+            ],
+            "Stock": [
+                "Siege Wire Stock",
+                "Heist-LW",
+                "FTAC Folder",
+                "FTAC Siege Stock"
+            ],
+            "Underbarrel": [
+                "Wedge Grip",
+                "Rebel-HX",
+                "S40-H Grip",
+            ],
+            "Ammunition": [
+                "9MM Frangible",
+                "9MM Hollow Point",
+                "9MM Armor Piercing",
+                "9MM Overpressured +P",
+            ],
+            "Magazine": [
+                "20 Round Mag",
+                "50 Round Drum",
+                "72 Round Drum",
+            ],
+            "Rear Grip": [
+                "FTAC Hold",
+                "FTAC Stead",
+                "SUR-160",
+            ],
+        }, 
         // GS Magna
-        {}
+        {
+            "Muzzle": [
+                "EXF Fifty GS",
+                "Matuzek Crown",
+                "FTAC Fifty Comp",
+                "Potato Masher",
+                "SA Peak-77",
+                "GW Flash Fifty",
+            ],
+            "Barrel": [
+                "SA Brake Barrel",
+                "SA Comp Barrel",
+                "SA Longshot-50",
+                "SA Tyrant Fifty",
+            ],
+            "Optic": [
+                "Slimline Pro",
+                "SZ Mini",
+                "Cronen Mini Red Dot",
+                "Cronen Mini Pro",
+                "SZ Sigma-IV Optic",
+                "SZ Minitac-40",
+                "XRK On-Point Optic",
+                "Aim OP-V4",
+                "DF105 Reflex Sight",
+                "Monocle CT90",
+                "Corvus SOL-76",
+                "SZ Recharge-DX",
+                "SZ SRO-7",
+                "Corio RE-X Pro",
+                "Corio Enforcer Optic",
+                "SZ Lonewolf Optic",
+                "Kazan-Holo",
+                "SZ Battle Optic",
+                "Corvus Downrange-00",
+                "SZ Holotherm",
+                "XTEN Angel-40",
+            ],
+            "Underbarrel": [
+                "OP-X9 Foregrip",
+                "Operator Foregrip",
+                "TV Wrecker Grip",
+                "Bruen Tilt Grip",
+                "Cronen Grooveshot Grip",
+                "EXF Backdraft Grip",
+                "Bruen Warrior Grip",
+            ],
+            "Ammunition": [
+                ".50 Pistol Frangible",
+                ".50 Pistol Hollowpoint",
+                ".50 Pistol Armor Piercing",
+                ".50 Pistol Overpressured +P",
+            ],
+            "Magazine": [
+                "10 Round Mag",
+                "13 Round Mag",
+            ],
+            "Rear Grip": [
+                "EXF Shoreline Grip",
+                "EXF Resistance Grip",
+                "GS.50 Wood Grain",
+                "GS Magna Akimbo",
+            ],
+        }, 
     ]
 ];
-
-// {
-//     "Muzzle": [
-    
-//     ],
-//     "Barrel": [
-    
-//     ],
-//     "Laser": [
-    
-//     ],
-//     "Optic": [
-    
-//     ],
-//     "Stock": [
-    
-//     ],
-//     "Underbarrel": [
-    
-//     ],
-//     "Ammunition": [
-    
-//     ],
-//     "Magazine": [
-    
-//     ],
-//     "Rear Grip": [
-    
-//     ],
-// }, 
