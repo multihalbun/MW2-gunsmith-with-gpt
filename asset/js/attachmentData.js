@@ -5587,32 +5587,32 @@ export const attachmentData = [
     ]
 ];
 
-{
-    "Muzzle": [
+// {
+//     "Muzzle": [
     
-    ],
-    "Barrel": [
+//     ],
+//     "Barrel": [
     
-    ],
-    "Laser": [
+//     ],
+//     "Laser": [
     
-    ],
-    "Optic": [
+//     ],
+//     "Optic": [
     
-    ],
-    "Stock": [
+//     ],
+//     "Stock": [
     
-    ],
-    "Underbarrel": [
+//     ],
+//     "Underbarrel": [
     
-    ],
-    "Ammunition": [
+//     ],
+//     "Ammunition": [
     
-    ],
-    "Magazine": [
+//     ],
+//     "Magazine": [
     
-    ],
-    "Rear Grip": [
+//     ],
+//     "Rear Grip": [
     
-    ],
-}, 
+//     ],
+// }, 
