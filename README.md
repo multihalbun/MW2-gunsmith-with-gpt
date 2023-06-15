@@ -44,3 +44,6 @@
             main.js
             weaponList.js
 ```
+
+## 전체 페이지 예시
+<img src="readme-img/page.png">
